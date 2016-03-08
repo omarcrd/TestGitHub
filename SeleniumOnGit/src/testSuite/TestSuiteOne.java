@@ -11,6 +11,7 @@ public class TestSuiteOne {
 		browserSetUp.initializeBrowser();	
 		SearchGoogle.doSearch();
 		browserSetUp.tearDown();
+		System.out.println("this is a new req I want to implement");
 
 	}
 
