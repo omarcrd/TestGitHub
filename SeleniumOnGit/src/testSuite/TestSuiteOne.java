@@ -5,7 +5,7 @@ import testCaseLibrary.SearchGoogle;
 
 public class TestSuiteOne {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
 		browserSetUp.initializeBrowser();	
