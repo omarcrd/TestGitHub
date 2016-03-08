@@ -9,7 +9,7 @@ public class SearchGoogle {
 	
 	public static void doSearch(){
 		
-		browserSetUp.driver.findElement(By.id("gs_htif0")).sendKeys("Selenium Tutorial");
+		browserSetUp.driver.findElement(By.id("gs_lc0")).sendKeys("Selenium Tutorial");
 		
 	}
 	
