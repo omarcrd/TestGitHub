@@ -15,7 +15,8 @@ public class browserSetUp {
 			
 	}
 	
-	public static void tearDown(){
+	public static void tearDown() throws InterruptedException{
+		Thread.sleep(4000);
 		driver.quit();
 	}
 	
