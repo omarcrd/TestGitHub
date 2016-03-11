@@ -11,6 +11,7 @@ public class TestSuiteOne {
 		browserSetUp.initializeBrowser();	
 		SearchGoogle.doSearch();
 		browserSetUp.tearDown();
+		System.out.println("this is tester one suggestion");
 
 	}
 
